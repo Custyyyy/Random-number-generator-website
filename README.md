@@ -3,10 +3,14 @@
 This site written in Italian simply at the click of the button returns a random number
 
 <h2>Folder descriptions</h2>
-The folder <a href="https://github.com/Custyyyy/Random-number-generator-website/blob/main/index.html">index.html</a> contains the page html with already integrated javascript script that you find in the folder <a href="https://github.com/Custyyyy/Random-number-generator-website/blob/main/scripts.js">scripts.js</a>
+The folder <a href="https://github.com/Custyyyy/Random-number-generator-website/blob/main/index.html">index.html</a> contains the page html with already integrated javascript script that you find in the folder <a href="https://github.com/Custyyyy/Random-number-generator-website/blob/main/scripts.js">scripts.js</a>.
 
 <h2>Page design</h2>
-To change the page design you need to edit the css file <a href="https://github.com/Custyyyy/Random-number-generator-website/blob/main/style.css">style.css</a>
+To change the page design you need to edit the css file <a href="https://github.com/Custyyyy/Random-number-generator-website/blob/main/style.css">style.css</a>.
+
+- The default page looks like this:
+
+  ![image](https://cdn.discordapp.com/attachments/805528177844944929/920061492823457872/Schermata_2021-12-13_alle_22.09_1.png)
 
 <h1>Max numbers generated</h1>
 To change the maximum number that the number generator can reach, therefore the limit number, simply change this number in the script by replacing it with the maximum number you want:
