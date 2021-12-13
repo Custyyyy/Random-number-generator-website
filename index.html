@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+</style>
+  <script>
+   function Random() {
+        var rnd = Math.floor(Math.random() * 10000);
+        document.getElementById('tb').value = rnd;
+    
+    }
+</script>
+<h1 style="font-family: space grotesk; font-style: bold; font-size: 4.4vh">Sorteggio interrogazione</h1>
+	<p style="color: grey; font-family: Poppins; ;font-size: 2vh">Oggi verra interrogato
+		<strong>il numero</strong>?	</p>
+  <form name="rn">
+     <p>
+    <button  type="button" value="Sorteggia un numero" onclick="Random();" > 
+      <h2>Sorteggia un numero</h2>
+	</button></p>
+  <br></br><br></br>
+    <div id="numero_sorteggiato">
+      <input type="text" id="tb" name="tb"/>
+      </div>
+</form>
+
+</body>
+</html>

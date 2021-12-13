@@ -1,0 +1,51 @@
+
+button {
+  height: 46px;
+  width: 180px;
+  border-radius: 40px;
+  border: solid;
+  border-color: black;
+  background-color: black;
+  transition-duration: 0.4s;
+  margin-top: 20px;
+
+  
+} 
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.20);
+  
+}
+h1 {
+  text-align: center; padding-left: 12px;
+}
+h2 {
+
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+h2 { font-family: space grotesk;
+}
+
+input {
+  border: none;
+  text-align: center;
+  color: black;
+  font-family: space grotesk;
+  font-size: 300px;
+width: 100%;
+}
+div.numero_sorteggiato {
+width: 100px;
+margin-top: 30px;
+}
+
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 12px;
+}
